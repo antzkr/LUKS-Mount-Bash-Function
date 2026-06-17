@@ -1,10 +1,10 @@
 # LUKS Mount Bash Function
 
-Bash function to mount and unmount LUKS images from the terminal. A single line finds available LUKS containers and mounts to your specified destination directory.
+Simple bash function to mount and unmount LUKS images from the terminal. A single line finds available LUKS containers and mounts to your specified destination directory.
 
 # PURPOSE
 
-This bash script makes mounting and unmounting LUKS containers from the terminal more convenient, without typing the long flags and options after each cryptsetup command. Note: only LUKS file containers / images are created by this function. Block devices (partitions) are NOT supported. Function can mount multiple LUKS file containers.
+This bash function makes mounting and unmounting LUKS containers from the terminal more convenient, without typing the long flags and options after each cryptsetup command. Note: only LUKS file containers / images are created by this function. Block devices (partitions) are NOT supported. Function can mount multiple LUKS file containers.
 
 # SYSTEM REQUIREMENTS
 
