@@ -1,5 +1,7 @@
 # LUKS Mount Bash Function
 
+Version 6
+
 Simple bash function to mount and unmount LUKS images from the terminal. A single line finds available LUKS containers and mounts to your specified destination directory.
 
 # PURPOSE
