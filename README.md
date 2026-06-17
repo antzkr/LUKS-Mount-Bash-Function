@@ -37,7 +37,7 @@ To close a LUKS image:
     cont-close (container alias)
 
 
-Note: you do not have to specify the path to the image, only to the location directory. The bash function will automatically display a list of available containers to mount.
+Note: you do not have to specify the path to the container itself, only to it's location directory. The bash function will automatically display a list of available containers to mount.
 
 # DISCLAIMER
 
