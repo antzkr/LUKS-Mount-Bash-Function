@@ -23,9 +23,9 @@ Copy .bash_functions file to your home directory. Make excutable and register fi
 
 Add the following entries to your .bash_aliases in your home directory. Create aliases file if it does not exist:
 
-\taliases cont-open='cont'
+    aliases cont-open='cont'
 
-\taliases cont-close='cont_close'
+    aliases cont-close='cont_close'
 
 
 To open a LUKS image:
