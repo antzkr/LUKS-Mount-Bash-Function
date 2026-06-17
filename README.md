@@ -14,11 +14,11 @@ The only requirements are systems with hardware to support modern encryption and
 
 Copy .bash_functions file to your home directory. Make excutable and register file in bash:
 
-- cp .bash_functions ~
+    cp .bash_functions ~
+    
+    chmod +x .bash_functions
 
-- chmod +x .bash_functions
-
-- source ~/.bash_functions
+    source ~/.bash_functions
 
 
 Add the following entries to your .bash_aliases in your home directory. Create aliases file if it does not exist:
