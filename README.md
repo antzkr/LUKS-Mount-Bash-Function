@@ -37,6 +37,8 @@ To close a LUKS image:
     cont-close (container alias)
 
 
+Note: you do not have to specify the path to the image, only to the location directory. The bash function will automatically display a list of available containers to mount.
+
 # DISCLAIMER
 
 Please review the Debian 13 LiveCD/USB bootable OS build script carefully. NEVER run a script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
