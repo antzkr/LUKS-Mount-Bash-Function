@@ -41,7 +41,7 @@ Note: you do not have to specify the path to the container itself, only to it's 
 
 # DISCLAIMER
 
-Please review the Debian 13 LiveCD/USB bootable OS build script carefully. NEVER run a script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
+Please review this bash function carefully. NEVER run a script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
 
 # LEGAL
 
