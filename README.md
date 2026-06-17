@@ -30,14 +30,12 @@ Add the following entries to your .bash_aliases in your home directory. Create a
 
 To open a LUKS image:
 
-
-- cont-open (container dir) (mount dir)
+    cont-open (container dir) (mount dir)
 
 
 To close a LUKS image:
 
-
-- cont-close (container alias)
+    cont-close (container alias)
 
 
 # DISCLAIMER
