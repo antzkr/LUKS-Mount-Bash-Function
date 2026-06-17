@@ -14,7 +14,7 @@ The only requirements are systems with hardware to support modern encryption and
 
 # INSTALLATION
 
-Copy .bash_functions file to your home directory. Make excutable and register file in bash:
+Copy .bash_functions file to your home directory. Make executable and register file in bash:
 
     cp .bash_functions ~
     chmod +x .bash_functions
