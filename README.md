@@ -6,7 +6,11 @@ Simple bash function to mount and unmount LUKS images from the terminal. A singl
 
 # PURPOSE
 
-This bash function makes mounting and unmounting LUKS containers from the terminal more convenient, without typing the long flags and options after each cryptsetup command. Note: only LUKS file containers / images can be mounted by this function. Block devices (partitions) are NOT supported. Function can mount multiple LUKS file containers.
+This bash function makes mounting and unmounting LUKS containers from the terminal more convenient, without typing the long flags and options after each cryptsetup command.
+
+Why use LUKS? Because it's a known, reliable, secure encryption standard with strong defaults. No need to worry about selecting 'The Best™️' encryption settings. Just create and forget about it. Of course, the single most important security factor is the strength of the password so USE A STRONG PASSWORD!
+
+Note: only LUKS file containers / images can be mounted by this function. Block devices (partitions) are NOT supported. Function can mount multiple LUKS file containers.
 
 # SYSTEM REQUIREMENTS
 
