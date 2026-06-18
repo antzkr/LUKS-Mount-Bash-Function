@@ -39,6 +39,16 @@ To close a LUKS image:
 
 Note: you do not have to specify the path to the container itself, only to it's location directory. The bash function will automatically display a list of available containers to mount.
 
+
+# LUKS Default Parameters:
+
+- Cipher: aes-xts-plain64
+- Key Size: 512 bits
+- Header Hashing: sha256
+- Passphrase Derivation: argon2id
+- Random Number Generator: /dev/urandom 
+
+
 # DISCLAIMER
 
 Please review this bash function carefully. NEVER run a script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
