@@ -1,16 +1,14 @@
 # LUKS Mount Bash Function
 
-Version 6
+Version 8 - Now with keyfile support
 
-Simple bash function to mount and unmount LUKS images from the terminal. A single line finds available LUKS containers and mounts to your specified destination directory.
+Simple bash function to quickly mount and unmount LUKS images from the command line. A single line finds available LUKS containers and mounts to your specified destination directory. Key files are supported.
 
 # PURPOSE
 
 This bash function makes mounting and unmounting LUKS containers from the terminal more convenient, without typing the long flags and options after each cryptsetup command.
 
-Why use LUKS? Because it's a known, reliable, secure encryption standard with strong defaults. No need to worry about selecting 'The Best™️' encryption settings. Just create and forget about it. Of course, the single most important security factor is the strength of the password so USE A STRONG PASSWORD!
-
-Only LUKS file containers / images can be mounted by this function. Block devices (partitions) are NOT supported. Function can mount multiple LUKS file containers.
+Only LUKS file containers / images can be mounted by this function. **Block devices (partitions) are NOT supported**. Function can mount multiple LUKS file containers.
 
 # SYSTEM REQUIREMENTS
 
@@ -41,21 +39,24 @@ To close a LUKS image:
     cont-close (container alias)
 
 
-Note: you do not have to specify the path to the container itself, only to it's location directory. The bash function will automatically display a list of available containers to mount.
+1. You do not have to specify the path to the container itself, only to it's location directory. The bash function will automatically display a list of available containers to mount.
+
+2. Keyfiles are auto-loaded from the same path as the container (eg. luks-container.keyfile). The bash function will ask for a custom path if keyfile is not found.
 
 
 # LUKS Default Parameters:
 
 - Cipher: aes-xts-plain64
 - Key Size: 512 bits
-- Header Hashing: sha256
+- Header Hashing: sha2
+- 56
 - Passphrase Derivation: argon2id
 - Random Number Generator: /dev/urandom 
 
 
 # DISCLAIMER
 
-Please review this bash function carefully. NEVER run a script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
+Please review this bash function carefully. NEVER run  script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
 
 # LEGAL
 
