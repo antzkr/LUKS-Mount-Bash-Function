@@ -17,7 +17,7 @@ The only requirements are systems with hardware to support modern encryption and
 
 # INSTALLATION
 
-Copy .bash_functions file to your home directory. Make executable and register file in bash:
+Copy **.bash_functions** file to your home directory. Make executable and register file in bash:
 
     cp .bash_functions ~
     chmod +x .bash_functions
@@ -40,7 +40,7 @@ To close a LUKS image:
     cont-close (container alias)
 
 
-1. You do not have to specify the path to the container itself, only to it's location directory. The bash function will automatically display a list of available containers to mount.
+1. **You do not have to specify the path to the container itself, only to it's location directory**. The bash function will automatically display a list of available containers to mount.
 
 2. Keyfiles are auto-loaded from the same path as the container (eg. luks-container.keyfile). The bash function will ask for a custom path if keyfile is not found.
 
@@ -50,5 +50,5 @@ Please review this bash function carefully. NEVER run  script blindly without un
 
 # LEGAL
 
-Please note that by downloading and running this script you acknowledge that 
+Please note that by downloading and running this bash function you acknowledge that 
 I am not responsible or liable for any damages or losses arising from your use or inability to use the script and or software used under this script. You are solely responsible for your use of this script. If you harm someone or get into a dispute with a 3rd party, you consent to me waiving any involvement.
