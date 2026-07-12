@@ -5,7 +5,7 @@ Version 8 - Now with keyfile support
 
 # PURPOSE
 
-Simple bash function to quickly mount and unmount LUKS images from the command line. Typing a single line in the terminal finds available LUKS containers and mounts to your specified destination directory. Key files are supported.
+Simple bash function to quickly mount and unmount LUKS images from the command line. Typing a single line in the terminal finds available LUKS containers and mounts to your specified destination directory. Keyfiles are supported.
 
 The purpose is to make mounting and unmounting LUKS containers more convenient, without typing the long flags and options after each cryptsetup command.
 
