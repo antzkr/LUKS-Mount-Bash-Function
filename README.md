@@ -24,7 +24,7 @@ Copy **.bash_functions** file to your home directory. Make executable and regist
     source ~/.bash_functions
 
 
-Add the following entries to your .bash_aliases in your home directory. Create aliases file if it does not exist (eg. nano ~/.bash_aliases):
+Add the following entries to your **.bash_aliases** in your home directory. Create aliases file if it does not exist (eg. nano ~/.bash_aliases):
 
     aliases cont-open='cont'
     aliases cont-close='cont_close'
