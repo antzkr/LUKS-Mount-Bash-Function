@@ -44,21 +44,11 @@ To close a LUKS image:
 
 2. Keyfiles are auto-loaded from the same path as the container (eg. luks-container.keyfile). The bash function will ask for a custom path if keyfile is not found.
 
-
-# LUKS Default Parameters:
-
-- Cipher: aes-xts-plain64
-- Key Size: 512 bits
-- Header Hashing: sha2
-- 56
-- Passphrase Derivation: argon2id
-- Random Number Generator: /dev/urandom 
-
-
 # DISCLAIMER
 
 Please review this bash function carefully. NEVER run  script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
 
 # LEGAL
 
-Please note that by downloading and running this script you acknowledge that I am not responsible or liable for any damages or losses arising from your use or inability to use the script and or software used under this script. You are solely responsible for your use of this script. If you harm someone or get into a dispute with a 3rd party, you consent to me waiving any involvement.
+Please note that by downloading and running this script you acknowledge that 
+I am not responsible or liable for any damages or losses arising from your use or inability to use the script and or software used under this script. You are solely responsible for your use of this script. If you harm someone or get into a dispute with a 3rd party, you consent to me waiving any involvement.
