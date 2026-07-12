@@ -2,7 +2,7 @@
 
 Version 8 - Now with keyfile support
 
-Simple bash function to quickly mount and unmount LUKS images from the command line. A single line finds available LUKS containers and mounts to your specified destination directory. Key files are supported.
+Simple bash function to quickly mount and unmount LUKS images from the command line. A single terminal line finds available LUKS containers and mounts to your specified destination directory. Key files are supported.
 
 # PURPOSE
 
