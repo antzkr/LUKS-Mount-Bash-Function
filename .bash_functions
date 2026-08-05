@@ -100,7 +100,7 @@ cont() {
         if [[ ! $SEARCH_K_REPLY =~ ^[Yy]$ ]]; then
             echo -e "\nProceeding with password-only support."
         else
-            read -p "Enter the full path (eg. /home/luks.keyfile): " KEYFILE_LOC
+            read -p "Enter the full path to the keyfile (eg. /home/luks.keyfile): " KEYFILE_LOC
             if [[ -f "$KEYFILE_LOC" ]]; then
                 echo -e "\n${CYAN}'$KEYFILE_LOC'${RESET} found."
                 KEYFILE_FLAG="1"
