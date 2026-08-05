@@ -44,7 +44,7 @@ To close a LUKS image:
 Note:
 1. **You do not have to specify the path to the container itself, only to it's location directory**. The bash function will automatically display a list of available containers to mount.
 
-2. Keyfiles are auto-loaded from the same path as the container (eg. luks-container.keyfile). The bash function will ask for a custom path if keyfile is not found.
+2. Keyfiles are auto-loaded from the same path as the container using the .keyfile file extension (eg. luks-container.keyfile). The bash function will ask for a custom path if keyfile is not found.
 
 # DISCLAIMER
 
