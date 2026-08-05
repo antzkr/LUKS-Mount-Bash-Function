@@ -15,7 +15,7 @@ Only LUKS file containers / images can be mounted by this function (.bin). **Par
 
 The only requirements are systems with hardware to support modern encryption and decryption, cryptsetup and associated packages, and running in a debian-based environment (ubuntu, mint, popOS, debian etc).
 
-Android / iOS are not supported even if you can run cryptsetup. These distro are severely locked-down so mounting containers in userspace (FUSE) is basically not possible.
+Android / iOS are not supported even if you can run cryptsetup. These distro are severely locked-down so mounting containers in userspace (FUSE) is basically not possible without gaining root access to the device.
 
 # INSTALLATION
 
