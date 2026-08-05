@@ -11,9 +11,23 @@
 #   <container-name.keyfile>                         #
 ######################################################
 
-# v8 - Added keyfile support
+# v8 - Added keyfile support, color support
 # v7 - visual tweaks
 # v6 - improved finding luks container logic & readability
+
+
+# Colors
+WHITE="\e[97m"
+BLACK="\e[30m"
+GRAY="\e[90m"
+RED="\e[31m"
+GREEN="\e[32m"
+YELLOW="\e[33m"
+BLUE="\e[34m"
+MAGENTA="\e[35m"
+
+# Reset color
+RESET='\033[0m'
 
 
 ###########################
