@@ -68,7 +68,7 @@ Note:
 
 # DISCLAIMER
 
-Please review this bash function carefully. NEVER run  script blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
+Please review this bash function carefully. NEVER run  scripts blindly without understanding what it could do. Don't trust me. Google around to find out more. Please research, research, research.
 
 # LEGAL
 
