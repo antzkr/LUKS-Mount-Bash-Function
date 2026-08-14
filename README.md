@@ -19,7 +19,7 @@ Android / iOS are not supported even if you can run cryptsetup. These distro are
 
 # INSTALLATION
 
-Add these entries to your **.bashrc** in your home directory:
+Add these entries to your **.bashrc** in your home directory with your favorite text editor:
 
     # ANSI colors
     WHITE="\e[97m"
