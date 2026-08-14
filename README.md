@@ -19,12 +19,6 @@ Android / iOS are not supported even if you can run cryptsetup. These distro are
 
 # INSTALLATION
 
-Copy **.bash_functions** file to your home directory. Make executable and register file in bash:
-
-    cp .bash_functions ~
-    chmod +x .bash_functions
-    source ~/.bash_functions
-
 Add these entries to your **.bashrc** in your home directory:
 
     # ANSI colors
@@ -49,6 +43,11 @@ Also add the following to your **.bash_aliases** in your home directory. Create 
     aliases cont-open='cont'
     aliases cont-close='cont_close'
 
+Finally, copy **.bash_functions** file to your home directory. Make executable and register in bash:
+
+    cp .bash_functions ~
+    chmod +x .bash_functions
+    source ~/.bashrc
 
 To open a LUKS image:
 
