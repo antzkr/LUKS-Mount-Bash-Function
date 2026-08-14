@@ -9,7 +9,7 @@ Simple bash function to quickly mount and unmount LUKS images from the command l
 
 The purpose is to make mounting and unmounting LUKS containers more convenient, without typing the long flags and options after each cryptsetup command.
 
-Only LUKS file containers / images can be mounted by this function (.bin). **Partitions are NOT supported**. Function can mount multiple LUKS file containers.
+Only LUKS file containers / images can be mounted (.bin). **Partitions are NOT supported**. Function can mount multiple LUKS file containers.
 
 # SYSTEM REQUIREMENTS
 
