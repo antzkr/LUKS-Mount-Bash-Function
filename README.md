@@ -51,6 +51,7 @@ Finally, copy **.bash_functions** file to your home directory. Make executable a
 
 # USEAGE
 
+Use the following syntax in your terminal.
 To open a LUKS image:
 
     cont-open (container dir) (mount dir)
