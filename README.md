@@ -49,6 +49,8 @@ Finally, copy **.bash_functions** file to your home directory. Make executable a
     chmod +x .bash_functions
     source ~/.bashrc
 
+# USEAGE
+
 To open a LUKS image:
 
     cont-open (container dir) (mount dir)
