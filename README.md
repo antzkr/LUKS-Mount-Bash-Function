@@ -31,7 +31,9 @@ Add these entries to your **.bashrc** in your home directory with your favorite 
     BLUE="\e[34m"
     MAGENTA="\e[35m"
     CYAN="\e[36m"
-    RESET="\e[0m"
+
+    # No color (reset)
+    NC="\e[0m"
 
     # Load bash functions
     if [ -f ~/.bash_functions ]; then
