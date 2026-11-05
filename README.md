@@ -1,6 +1,6 @@
 # LUKS Mount Bash Function
 
-Version 11 - With keyfile support
+Version 13 - With keyfile support & visual improvements
 
 
 # PURPOSE
