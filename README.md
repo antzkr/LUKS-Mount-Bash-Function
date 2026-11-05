@@ -31,7 +31,7 @@ Also add the following to your **.bash_aliases** in your home directory. Create 
     aliases cont-open='cont'
     aliases cont-close='cont_close'
 
-Finally, copy **.bash_functions** file to your home directory. Make executable and source in bash:
+Finally, copy **.bash_functions** file to your home directory. You may need to rename the function (some web browsers add .txt extension when downloading). Make executable and source in bash:
 
     cp .bash_functions ~
     chmod +x .bash_functions
