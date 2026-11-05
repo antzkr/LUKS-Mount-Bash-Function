@@ -21,20 +21,6 @@ Android / iOS are not supported even if you can run cryptsetup. These distro are
 
 Add these entries to your **.bashrc** in your home directory with your favorite text editor:
 
-    # ANSI colors
-    WHITE="\e[97m"
-    BLACK="\e[30m"
-    GRAY="\e[90m"
-    RED="\e[31m"
-    GREEN="\e[32m"
-    YELLOW="\e[33m"
-    BLUE="\e[34m"
-    MAGENTA="\e[35m"
-    CYAN="\e[36m"
-
-    # No color (reset)
-    NC="\e[0m"
-
     # Load bash functions
     if [ -f ~/.bash_functions ]; then
         . ~/.bash_functions
