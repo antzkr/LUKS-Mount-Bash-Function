@@ -188,7 +188,7 @@ cont() {
         fi
     fi
 
-    # Check if mount point exists, create if it doe not
+    # Check if mount point exists, create if it does not
     if [[ ! -d "${MOUNT_PATH}" ]]; then
         echo -e "${YELLOW}Warning:${NC} Mount point ${MOUNT_PATH} does not exist. Creating it..."
         if ! sudo mkdir -p "${MOUNT_PATH}"; then
