@@ -39,7 +39,6 @@ Finally, copy **.bash_functions** file to your home directory. You may need to r
 
 # USEAGE
 
-Use the following syntax in your terminal.
 To open a LUKS image:
 
     cont-open (container dir) (mount dir)
@@ -54,7 +53,7 @@ Note:
 
 2. Keyfiles are auto-loaded from the same path as the container using the .key or .keyfile file extension (eg. luks-container.keyfile). The bash function will ask for a custom path if keyfile is not found.
 
-3. Minimum size LUKS container supported is 100MB. There is no upper bound on the maximum size.
+3. The minimum LUKS container size supported is 100MB. There is no upper bound on the maximum size.
 
 
 # DISCLAIMER
