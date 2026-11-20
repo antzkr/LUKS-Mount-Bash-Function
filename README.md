@@ -24,6 +24,10 @@ Android / iOS are not supported even if you can run cryptsetup. These distro are
 
 # INSTALLATION
 
+Install prerequisite packages:
+    sudo apt update
+    sudo apt install cryptsetup e2fsprogs util-linux -y
+
 Add these entries to your **.bashrc** in your home directory with your favorite text editor:
 
     # Load bash functions
