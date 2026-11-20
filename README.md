@@ -15,7 +15,7 @@ Only LUKS file containers / images can be mounted (.bin). **Partitions are NOT s
 
 Hardware to support modern encryption and decryption, cryptsetup and associated packages, and running in a debian-based environment (ubuntu, mint, popOS, debian etc).
 
-Dependencies:
+Dependencies needed to run correctly:
 - cryptsetup (LUKS encryption suite)
 - e2fsprogs (filesystem tools eg. e2fsck)
 - util-linux (system utilities eg. losetup)
