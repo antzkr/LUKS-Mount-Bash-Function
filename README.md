@@ -13,7 +13,12 @@ Only LUKS file containers / images can be mounted (.bin). **Partitions are NOT s
 
 # SYSTEM REQUIREMENTS
 
-The only requirements are systems with hardware to support modern encryption and decryption, cryptsetup and associated packages, and running in a debian-based environment (ubuntu, mint, popOS, debian etc).
+Hardware to support modern encryption and decryption, cryptsetup and associated packages, and running in a debian-based environment (ubuntu, mint, popOS, debian etc).
+
+Dependencies:
+- cryptsetup (LUKS encryption suite)
+- e2fsprogs (filesystem tools eg. e2fsck)
+- util-linux (system utilities eg. losetup)
 
 Android / iOS are not supported even if you can run cryptsetup. These distro are severely locked-down so mounting containers in userspace (FUSE) is basically not possible without gaining root access to the device.
 
