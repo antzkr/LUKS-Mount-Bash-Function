@@ -1,6 +1,6 @@
 # LUKS Mount Bash Function
 
-Version 14 - With keyfile support & visual improvements
+Version 14 - With keyfile support, visual improvements & filesystem integrity check on mount
 
 
 # PURPOSE
